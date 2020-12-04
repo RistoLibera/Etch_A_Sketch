@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1{
+    margin:0px;
+}
+.toolName{
+    text-align:center;
+}
+
+.container{
+    display:grid;
+    width: 30vw;
+    height: 30vw;
+    position: relative;
+    background-color:white;
+    margin: 0 auto;
+    
+    
+}
+.containerArea{
+    display: flex;
+    align-items: center;
+    position:relative;
+    width: 40vw;
+    height: 40vw;
+    margin: 30px auto;
+    background-color:black;
+    
+}
+
+.buttons{
+    display:flex;
+    justify-content: center;
+}
+    
+button{
+    color:black;
+    background-color:rgb(153, 106, 102);
+    margin:1px 10px;
+    width:10vw;
+    height:5vw;
+}
+
+.functionButton{
+    transition:all 1.0s ease;
+}
+
+.activate{
+    
+    background-color:orange;
+    width:11vw;
+   
+
+}
